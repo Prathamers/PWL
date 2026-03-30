@@ -51,9 +51,7 @@
 	DEFINE_TRACE_SYSCALL(name, reg, unreg, PARAMS(proto), PARAMS(args))
 
 #undef TRACE_EVENT_NOP
-#define TRACE_EVENT_NOP(name, proto, args, struct, assign, print)
-
-#undef DEFINE_EVENT_NOP
+#define TRACE_EVENT_NOP(name, proto, 
 #define DEFINE_EVENT_NOP(template, name, proto, args)
 
 #undef DEFINE_EVENT
